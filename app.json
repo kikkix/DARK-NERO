@@ -1,0 +1,31 @@
+{
+  "name": "DARK NERO",
+  "description": "Advanced WhatsApp Bot in Sri Lanka",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "darknero", "multi device"],
+  "success_url": "/",
+  "stack": "container",
+  "env": {
+    "SESSION_ID": {
+        "value": "",
+        "required" : true
+    },
+    "PREFIX": {
+        "value": ".",
+        "required" : true
+    },
+    "OWNER_NUMBER": {
+        "value": "",
+        "required" : true
+    },
+    "MONGODB_URI": {
+        "value": "",
+        "required" : true
+    }
+  },
+  "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+  ],
+  "stack": "heroku-24"
+}
